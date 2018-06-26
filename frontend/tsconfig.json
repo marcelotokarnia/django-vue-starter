@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "outDir": "./built/",
+      "sourceMap": true,
+      "baseUrl": "./",
+      "paths": {
+        "@src/*": ["src/*"],
+        "*": ["typings/*"]
+      },
+      "strict": true,
+      "noImplicitReturns": true,
+      "module": "es2015",
+      "moduleResolution": "node",
+      "target": "es5"
+  },
+  "include": [
+      "./src/**/*",
+      "./test/**/*"
+  ]
+}
+

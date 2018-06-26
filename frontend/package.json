@@ -1,0 +1,33 @@
+{
+  "name": "temperature",
+  "version": "1.0.0",
+  "description": "Temperature Check",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development",
+    "test": "test"
+  },
+  "keywords": [
+    "Django",
+    "Vue",
+    "Temperature"
+  ],
+  "author": "Marcelo Tokarnia",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "ignore-loader": "^0.1.2",
+    "sass-loader": "^7.0.3",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
